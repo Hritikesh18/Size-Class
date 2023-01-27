@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_72" orientation="landscape" appearance="light"/>
+    <device id="ipad12_9" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -15,15 +15,15 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="932" height="430"/>
+            <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uMv-da-g4e">
-                    <rect key="frame" x="56" y="50" width="856" height="100"/>
+                    <rect key="frame" x="20" y="50" width="1326" height="300.5"/>
                     <color key="backgroundColor" systemColor="systemGreenColor"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fLy-bK-hoO">
-                    <rect key="frame" x="56" y="165" width="229" height="100"/>
+                    <rect key="frame" x="20" y="375.5" width="290" height="301"/>
                     <color key="backgroundColor" systemColor="systemIndigoColor"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="290" id="Za9-WZ-uxZ"/>
@@ -40,7 +40,7 @@
                     </variation>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v64-6A-4yM">
-                    <rect key="frame" x="295" y="165" width="617" height="100"/>
+                    <rect key="frame" x="337" y="375.5" width="1009" height="301"/>
                     <color key="backgroundColor" systemColor="systemPinkColor"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="617" id="O9s-zi-Cne"/>
@@ -64,7 +64,7 @@
                     </variation>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LJY-C2-Qah">
-                    <rect key="frame" x="56" y="280" width="856" height="100"/>
+                    <rect key="frame" x="20" y="701.5" width="1326" height="300.5"/>
                     <color key="backgroundColor" red="0.45478860506347141" green="0.58241877805963937" blue="0.86078917980194092" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                 </view>
             </subviews>
